@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    /* grid-template-rows: 1fr; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-between;
+}
+
+.border {
+    border: 1px solid black;
+}
