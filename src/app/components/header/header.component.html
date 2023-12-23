@@ -1,10 +1,25 @@
 <mat-toolbar class="container">
-    <span>Amazon.in</span>
-    <!-- <span>Location</span>
-    <span>Search bar</span>
-    <span>EN</span>
-    <span>Orders</span>
-    <span>Sign In</span> -->
+    <img src="../../../assets/16-167642_amazon-logo-amazon-logo-white-text.png" height="30" width="100" alt="Amazon logo" />
+    <div style="display: grid;grid-template-rows: 1fr;justify-content: center;">
+      <span style="font-size: small;color: gainsboro;">Delivering to Kasaragod 671318</span>
+      <div style="display: grid;grid-template-columns: 10px 10px;column-gap: 15px;align-items: center;margin-left: -1.5rem;">
+        <mat-icon>location_on</mat-icon>
+        <strong>Update location</strong>
+      </div>
+    </div>
+    <app-search />
+    <div style="display: flex;justify-content: center;align-items: center;gap: 5px;">
+      <img src="../../../assets/flag-400.png" alt="Country Flag Icon" width="20" height="15" />
+      <span>EN</span>
+    </div>
+    <div style="display: grid;grid-template-rows: 1fr;justify-content: center;">
+      <span style="font-size: small;color: gainsboro;">Hello, Sign in</span>
+      <strong>Account & Lists</strong>
+    </div>
+    <div style="display: grid;grid-template-rows: 1fr;justify-content: center;">
+      <span style="font-size: small;color: gainsboro;">Returns</span>
+      <strong>& Orders</strong>
+    </div>
     <button mat-icon-button aria-label="Shopping Cart Icon">
       <mat-icon>shopping_cart</mat-icon>
     </button>

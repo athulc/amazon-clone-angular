@@ -1,16 +1,12 @@
 .container {
-    display: grid;
-    grid-template-columns: 100px 300px 1fr 100px 150px 150px 50px;
+    /* display: grid;
+    grid-template-columns: 100px 300px 1fr 100px 150px 150px 50px; */
     /* grid-template-rows: 1fr; */
     /* grid-template-columns: repeat(2, 1fr); */
     justify-content: space-between;
     align-items: center;
     /* padding: 20px; */
-    background-color: #131921;
+    background-color: #232f3e;
     color: white;
-    height: 70px;
-}
-
-.border {
-    border: 1px solid white;
+    height: 40px;
 }

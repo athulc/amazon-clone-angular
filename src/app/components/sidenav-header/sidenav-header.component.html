@@ -1,0 +1,13 @@
+<mat-toolbar class="container">
+    <button mat-icon-button class="example-icon" (click)="drawer.toggle()" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+</mat-toolbar>
+<mat-drawer-container class="example-container" autosize style="height: 100vh;">
+    <mat-drawer #drawer class="example-sidenav" mode="side" style="width: 400px;">
+    <strong>Shop By Category</strong>
+    </mat-drawer>
+    <app-main />
+</mat-drawer-container>
+  
+  

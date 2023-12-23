@@ -1,0 +1,10 @@
+<div class="slider">
+    <div>
+        <div class="leftArrow" (click)="goToPrevious()"><</div>
+        <div class="rightArrow" (click)="goToNext()">></div>
+    </div>
+    <div class="slide" [ngStyle]="{'background-image': getCurrentSlideUrl()}"></div>
+    <div class="dotsContainer">
+        <div *ngFor="let slide of slides; let slideIndex = index" class="dot" (click)="goToSlide(slideIndex)">{{currentIndex === slideIndex ? '&#9642;' : '&#9643;' }} </div>
+    </div>
+</div>
