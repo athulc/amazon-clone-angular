@@ -9,6 +9,7 @@
     background-color: #131921;
     color: white;
     height: 70px;
+    min-width: 100%;
 }
 
 .border {

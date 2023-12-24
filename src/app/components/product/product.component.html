@@ -1,0 +1,23 @@
+<mat-card class="example-card">
+    <mat-card-header style="justify-content: center;">
+      <!-- <mat-card-title-group>
+        <mat-card-title>Shiba Inu</mat-card-title>
+        <mat-card-subtitle>Extra large</mat-card-subtitle> -->
+        <img mat-card-lg-image src="https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/51jyWjssSAL.jpg" />
+      <!-- </mat-card-title-group> -->
+    </mat-card-header>
+    <mat-card-content>
+        <p style="font-size: medium;">Lava Blaze 2 Pro (8 GB RAM, 128GB UFS Storage) - Cool Green|50 MP AI Triple Camera |18W Fast Charger| 6.5 inch(16.5cm) Display with 5000 mAh Battery| Upto 16GB Expandable RAM</p>
+        <!-- <p>****** 1022 </p> -->
+        <div>
+          <ngb-rating [(rate)]="rating" [max]="5" style="color: #DE7921;font-size: larger;"></ngb-rating>
+        </div>
+       
+        <strong>&#8377; 10,999</strong>
+    </mat-card-content>
+   
+    <div style="display: flex;flex-direction: column;gap: 10px;padding: 5px;">
+        <button mat-fab extended style="background-color: #ffd814;color: black;">Add To Cart</button>
+        <button mat-fab extended style="background-color: #ffa41c;color: black;">Buy Now</button>
+    </div>
+</mat-card>
